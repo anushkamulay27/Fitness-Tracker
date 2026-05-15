@@ -1,0 +1,3 @@
+    Day 1 "What is the difference between .then() and async/await? Why does async/await exist?"
+=>  in the .then() it is like there are steps followed at every .then command and the promise is held up in between the thens.But in the async/awaits, when in the async function the response is taken from the website/url, which is then in the respoonse.json where it is held/awaited, and then it is sent to the data from which it is read.
+.then() chains get messy when you have 5-6 steps. async/await reads like normal top-to-bottom code. Same thing happening under the hood, cleaner to read and maintain
